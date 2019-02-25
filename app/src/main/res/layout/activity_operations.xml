@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Operations">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/empchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <Button
+            android:id="@+id/bRawMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raw Material"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+        <Button
+            android:id="@+id/bdelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="327dp" />
+
+        <Button
+            android:id="@+id/bproduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Production"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

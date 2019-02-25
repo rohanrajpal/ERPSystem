@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="294dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Change Name" />
+
+            <EditText
+                android:id="@+id/EChangeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Change Shift" />
+
+            <Spinner
+                android:id="@+id/EchangeShift"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:entries="@array/shifts" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BChangeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Details" />
+
+        <Button
+            android:id="@+id/buttonAbst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark Absent" />
+
+        <Button
+            android:id="@+id/removeEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Employee" />
+
+        <Button
+            android:id="@+id/buttonAttd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Mark Present"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="210dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Workers</string>
+    <string name="title_activity_unit_select">UnitSelect</string>
+    <array name="shifts">
+        <item>Day</item>
+        <item>Night</item>
+    </array>
+</resources>
