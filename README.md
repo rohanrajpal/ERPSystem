@@ -1,5 +1,5 @@
 # ERPSystem
-I made a simple ERP system for a factory in summers last year. 
+Made a simple ERP system for a factory in my summer vacations last year. 
 I used Java to code and Android Studio IDE to build the app. The database management was done using Firebase real-time database.
 
 You can have a look at it's working here:
